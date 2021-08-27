@@ -1,5 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	background: #ccc;
-	color: #000;
 	text-align: center;
+}
+.continer {
+	height: 100%;
+	display: flex;
+	background: #24292e;
+	color: #fff;
+
+	padding: 1.5%;
+}
+.continer ul {
+	width: 100%;
+	/*border: solid 1px red;*/
+	display: flex;
+	list-style: none;
+	justify-content: center;
+
+	align-items: center;
+	text-align: center;
+}
+.continer ul li {
+	margin-right: 30px;
+	text-decoration: none;
+}
+.continer a {
+	text-decoration: none;
+	color: #fff;
+	padding: 20px;
+	margin: 10px;
+	font-size: 12px;
+	text-align: center;
+	font-family: "Roboto Slab", serif;
+	transition: color 0.3s ease;
+}
+.continer a:hover {
+	/*color: #e3b155;*/
+	color: #848789;
+}
+.logoGitHot {
+	/*border: solid 1px red;*/
 }
