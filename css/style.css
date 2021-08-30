@@ -48,3 +48,8 @@ body {
 	width: 50%;
 	height: 50%;
 }
+.text-master {
+	background: pink;
+	color: #fff;
+	font-family: courier;
+}
