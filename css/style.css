@@ -45,8 +45,14 @@ body {
 }
 .div {
 	border: solid 1px #fff;
+	box-shadow: 1px 5px 15px 2px #000;
 	width: 50%;
 	height: 50%;
+}
+.div h1 {
+	background: #012a72;
+	box-shadow: 1px 5px 15px 2px #000;
+	color: #fff;
 }
 .master {
 	background: pink;
@@ -63,10 +69,4 @@ body {
 
 .targeta p {
 	margin-top: 50px;
-}
-
-.cabecera {
-	background: #012a72;
-	box-shadow: 1px 5px 15px 2px #000;
-	color: #fff;
 }
