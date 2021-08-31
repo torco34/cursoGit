@@ -11,17 +11,16 @@ body {
 	height: 100%;
 	display: flex;
 	background: #24292e;
+	box-shadow: 4px 12px 15px 5px #000000;
 	color: #fff;
 
 	padding: 1.5%;
 }
 .continer ul {
 	width: 100%;
-	/*border: solid 1px red;*/
 	display: flex;
 	list-style: none;
 	justify-content: center;
-
 	align-items: center;
 	text-align: center;
 }
