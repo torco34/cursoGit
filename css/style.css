@@ -42,10 +42,19 @@ body {
 	/*color: #e3b155;*/
 	color: #848789;
 }
+.containerBody {
+	grid-gap: 0px;
+	display: grid;
+	border: solid 1px #fff;
 
+	align-items: center;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+.containerBody div {
+	border: solid 1px #fff;
+}
 .div {
 	border: solid 1px #fff;
-	
 }
 .div h1 {
 	background: #012a72;
@@ -56,8 +65,7 @@ body {
 	background: pink;
 	color: #000;
 	font-family: courier;
-	width: 50%;
-	height: 50%;
+	border: solid 1px #fff;
 }
 .targeta {
 	width: 50%;
@@ -68,4 +76,3 @@ body {
 .targeta p {
 	margin-top: 50px;
 }
-
