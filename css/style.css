@@ -52,6 +52,7 @@ body {
 }
 .containerBody div {
 	border: solid 1px #fff;
+	width: 100%;
 }
 .div {
 	border: solid 1px #fff;
